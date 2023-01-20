@@ -12,14 +12,12 @@ function App() {
 			<Routes>
 				<Route exact path="/" element={<General />} />
 				<Route path="/login" element={<Login />} />
-				{/* <Route path="/edit/:id" element={<Edit />} />
-				<Route path="/create" element={<Create />} /> */}
 			</Routes>
 		</div>
+
 		// <div className="bg-white text-gray-600 work-sans leading-normal text-base tracking-normal">
 		// 	<nav id="header" >
 		// 		<div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 py-3">
-
 		// 		</div>
 		// 	</nav>
 		// 	<section class="bg-white py-8">
