@@ -6,6 +6,7 @@ class Product {
 		this.price = data.price;
 		this.type = data.type;
 		this.quantity = data.quantity;
+		this.sections = data.sections;
 	}
 }
 
