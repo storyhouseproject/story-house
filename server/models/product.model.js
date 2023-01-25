@@ -7,6 +7,7 @@ class Product {
 		this.type = data.type;
 		this.quantity = data.quantity;
 		this.sections = data.sections;
+		this.isDeleted = false;
 	}
 }
 
